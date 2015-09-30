@@ -26,7 +26,7 @@ rake db:migrate
 
 Setup your local environment variables
 ```bash
-mv .env_template .env
+cp .env_template .env
 ```
 
 ### Open the project in your favorite editor
