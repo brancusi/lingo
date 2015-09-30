@@ -1,70 +1,53 @@
-# Lingo
+# Client
 
-Current play stack
+This README outlines the details of collaborating on this Ember application.
+A short introduction of this app could easily go here.
 
-1. Tokbox
-1. Rails
-1. React
-1. Ember
-1. Firebase
+## Prerequisites
 
-## Setup server
+You will need the following things properly installed on your computer.
 
-### Install [rbenv](https://github.com/sstephenson/rbenv)
+* [Git](http://git-scm.com/)
+* [Node.js](http://nodejs.org/) (with NPM)
+* [Bower](http://bower.io/)
+* [Ember CLI](http://www.ember-cli.com/)
+* [PhantomJS](http://phantomjs.org/)
 
-```bash
-git clone git@github.com:brancusi/lingo.git
+## Installation
 
-cd lingo/server
+* `git clone <repository-url>` this repository
+* change into the new directory
+* `npm install`
+* `bower install`
 
-bundle
+## Running / Development
 
-rake db:migrate
-```
+* `ember server`
+* Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Signup for a trial account at [talkbox](http://tokbox.com)
+### Code Generators
 
-Setup your local environment variables
-```bash
-cp .env_template .env
-```
+Make use of the many generators for code, try `ember help generate` for more details
 
-### Open the project in your favorite editor
+### Running Tests
 
-Edit the .env file with your credentials found in your opentalk dashboard
+* `ember test`
+* `ember test --server`
 
-```ruby
-OT_API_KEY=YOUR_API_KEY
-OT_API_SECRET=YOUR_API_SECRET
-```
+### Building
 
-### Start rails
-```bash
-rails s
-```
+* `ember build` (development)
+* `ember build --environment production` (production)
 
-## Setup client
+### Deploying
 
-### Install [ember-cli](http://www.ember-cli.com/)
-```bash
-npm install -g ember-cli
-```
+Specify what it takes to deploy your app.
 
-```bash
-cd client
+## Further Reading / Useful Links
 
-npm install
+* [ember.js](http://emberjs.com/)
+* [ember-cli](http://www.ember-cli.com/)
+* Development Browser Extensions
+  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
+  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
-bower install
-```
-
-### Start ember
-
-```bash
-ember s
-```
-
-In one browser tab, navigate to [localhost:4200/chats/myroom](http://localhost:4200/chats/myroom)
-In a second browser tab, navigate to [localhost:4200/chats/myroom](http://localhost:4200/chats/myroom)
-
-*See how fly you are*
