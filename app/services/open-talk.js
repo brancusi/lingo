@@ -6,7 +6,8 @@ export default Ember.Service.extend({
     return new Ember.RSVP.Promise((resolve, reject)=>{
 
       Ember.$.ajax({
-        url: "http://localhost:3000/sessions",
+        
+        url: "http://bobcat.lingo.development.c66.me/sessions",
         method: "POST",
         headers: {
           'Accept': 'application/json; charset=utf-8'

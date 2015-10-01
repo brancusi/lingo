@@ -1,7 +1,13 @@
-# Client
+# Lingo - Client
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+### Lingo(working title) aims to help teachers and students learning foreign language by using new advances in webRTC to create helpful virtual classroom tools.
+
+## Demo: [http://lingoapp.divshot.io/chats/rubymob](http://lingoapp.divshot.io/chats/rubymob)
+### Open 2 or more tabs with this address to create a video chat.
+
+This repo is for the web client component of *Lingo*
+
+If you are looking for the server repo please visit: [https://github.com/brancusi/lingo-server](https://github.com/brancusi/lingo-server)
 
 ## Prerequisites
 
@@ -23,31 +29,5 @@ You will need the following things properly installed on your computer.
 ## Running / Development
 
 * `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+* Visit a sample video room at [http://localhost:4200/chats/rubymob](http://localhost:4200/chats/rubymob).
+* Open a second tab and visit the same link to see a chat.
